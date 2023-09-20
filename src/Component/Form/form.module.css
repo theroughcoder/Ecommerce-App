@@ -1,0 +1,57 @@
+
+ .myForm {
+    z-index: 2;
+    position: fixed;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eae6e6;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px grey;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+ .myForm  p{
+  transform: translateX(10px);
+  color: #555;
+}
+.cancel{
+    position: absolute;
+    top: 1ch;
+    right: 2ch;
+    font-size: large;
+    color: #585959;
+    cursor: pointer;
+}
+
+/* Input Styles */
+.myInputAlbum {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.textInput{
+    /* box-sizing: border-box; */
+    font-size: large;
+    color: #555;
+    display: block;
+    margin: 1ch;
+    /* padding: 100px; */
+}
+/* Button Styles */
+.myButton {
+    margin-left: 1ch;
+    box-sizing: border-box;
+    width: 20%;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

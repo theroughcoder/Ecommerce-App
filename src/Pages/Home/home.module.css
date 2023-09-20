@@ -1,0 +1,172 @@
+
+/* ============================== Home.js ================================= */
+
+/* page header containing search bar and button */
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* search bar */
+.header input {
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    padding: 2px 5px;
+    font-size: 1rem;
+}
+
+/* apply filter button */
+.header button {
+    float: right;
+    margin-right: 5%;
+    height: 32px;
+    width: 100px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+    color:white;
+    
+}
+
+
+/* container containing filter bar and product list */
+.mainContainer{
+    margin: auto;
+  max-width: 900px;
+}
+
+.mainContainer > div {
+    margin: 15px;
+}
+
+
+/* =========================== MainContent.js ===================  */
+
+/* container for all the products */
+.itemContainer{
+    padding:0 6%;
+}
+
+
+
+/* =========================== ItemCard.js ===========================  */
+
+/* single item container */
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the product card */
+.productCard {
+    /* width: 100%; */
+    /* height: 400px; */
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    
+}
+
+.productImage {
+    /* width: 20%; */
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-right: 5%;
+}
+.productImage img {
+    /* width: 20%; */
+   max-width: 100%;
+   max-height: 100%;
+    margin-right: 5%;
+}
+.info{
+    width: 40%;
+}
+.productTitle {
+    /* width: 30%; */
+    font-size: 1rem;
+    height: 110px;
+    margin: 10px 0;
+}
+
+.productDescription {
+    font-size: 1rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.productPrice {
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+.addToCart{
+    
+}
+
+.addToCartButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.addoCartButton:hover {
+    background-color: #0056b3;
+}
+
+
+.btnContainer {
+    /* background-color: aqua; */
+    /* z-index: 10; */
+    right: 40px;
+    top: 80px;
+    position: absolute;
+    /* height: 100%; */
+    height: 50px;
+    align-items: center;
+    gap: 12px;
+    transform: translateX(110%);
+    display: flex;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .active {
+      /* z-index: 111; */
+      opacity: 1;
+      transform: translateX(0);
+  }
+  
+  .edit,
+  .delete {
+      height: 100%;
+      transition: all 0.15s ease-in-out;
+  }
+  
+.edit:hover,
+.delete:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
+.links {
+    color: rgb(0, 0, 0);
+}

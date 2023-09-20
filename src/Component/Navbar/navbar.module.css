@@ -1,0 +1,64 @@
+
+/* main container of the navbar */
+.navbarContainer{
+    background: rgb(69, 245, 216);
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 5%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    color:rgb(0, 0, 0);
+    box-shadow: 2px 1.5px 8px;
+}
+.cart{
+    position: relative;
+    display: inline-block;
+}
+.cartCircle{
+    position: absolute;
+    right: -15px;
+    bottom: -5px;
+    background-color: rgb(247, 40, 40);
+    text-align: center;line-height: 20px;
+    color: rgb(254, 254, 254);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
+/* app name inside navbar */
+.appName a{
+    color: rgb(9, 9, 9);
+}
+.appName a:hover{
+    color: white;
+}
+
+/* all the navigating links */
+.navLinks{
+    float: right;
+}
+
+/* single link within the navlink */
+.navLinks span {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+/* styling link */
+.navLinks a{
+    color: rgb(0, 0, 0);
+}
+
+/* style on hover over the link */
+.navLinks a:hover{
+    color:rgb(144, 141, 141);
+}
+
