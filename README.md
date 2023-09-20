@@ -2,7 +2,7 @@
 
 ## Overview
 
-It is an e-commerce project that shows the glimpse of amazon. This project has used redux for storing the variable globally.
+It is an e-commerce project that shows the glimpse of amazon. This project has used redux for storing the variable globally. The user can enjoy certain features like exploring new products, and also editing and deleting them.
 
 ## Features
 
